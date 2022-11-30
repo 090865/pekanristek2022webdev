@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form class="form">
+        <h2>Masukkan data</h2>
+        <input id='itempemasukanform' name="itempemasukan" type="text" placeholder="Masukkan item pemasukan Anda">
+        <input id='pemasukanform' name="pemasukan" type="text" placeholder="Masukkan dalam rupiah">
+        <input id="itempengeluaranform"  name="itempengeluaran" type="text" placeholder="Masukkan item pengeluaran Anda">
+        <input id='pemgeluaranform' name="pengeluaran" type="text" placeholder="Masukkan dalam rupiah">
+        <button  type="submitpost">Submit data saya</button>
+    </form>
+
+    <div class="editContainer"></div>
+
+    <form class="result">
+        <h2>Hasil Perhitungan</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>itempemasukan</th>
+                    <th>pemasukan</th>
+                    <th>itempengeluaran</th>
+                    <th>pengeluaran</th>
+                </tr>
+            </thead>
+            <tbody id="data-output">
+                
+            </tbody>
+        </table>
+    </form>
+    <!-- <script src="project1post.js">  </script> -->
+    <!-- <script src="project1put.js"></script> -->
+    <script src="frontend.js"></script>
+</body>
+</html>
